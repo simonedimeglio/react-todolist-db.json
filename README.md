@@ -1,8 +1,21 @@
-# React + Vite
+# React @Vite - Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questa è una semplice applicazione Todo List che utilizza un sistema locale con `db.json` e `json-server`. L'app implementa un sistema CRUD completo con chiamate AJAX in React, gestendo lo stato con `useState` e le fetch comandate dall'utilizzo di `useEffect`.
 
-Currently, two official plugins are available:
+## Caratteristiche
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Create**: Aggiungi nuove attività tramite un form.
+- **Read**: Visualizza tutte le attività dalla lista.
+- **Update**: Modifica le attività esistenti.
+- **Delete**: Rimuovi le attività dalla lista.
+
+## In questo progetto trovi: 
+
+- **React**: Libreria JavaScript per costruire interfacce utente.
+- **useState**: Hook di React per gestire lo stato nei componenti funzionali.
+- **useEffect**: Hook di React per gestire gli effetti collaterali, come le fetch.
+- **JSON Server**: Strumento per creare un semplice server REST API con `db.json`.
+- **AJAX**: Tecnica per eseguire richieste HTTP asincrone per interagire con il server.
+
+
+Questo progetto è rilasciato sotto la licenza MIT
